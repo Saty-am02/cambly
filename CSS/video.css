@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body
+{
+overflow-y: hidden;
+place-items: center;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#f1f4f9,#dff1ff);   
+}
+section .color
+{
+    position: absolute;
+    filter: blur(120px);
+}
+section .color:nth-child(1)
+{
+    top: -300px;
+    width: 750px;
+    height: 750px;
+    background: #fc0202;
+}
+section .color:nth-child(2)
+{
+    bottom: -150px;
+    left: 120px;
+    width: 500px;
+    height: 500px;
+    background: #fdf903;
+}
+section .color:nth-child(3)
+{
+    bottom: 50px;
+    left: -300px;
+    width: 300px;
+    height: 300px;
+    background: #070707;
+}
+section .color:nth-child(4)
+{
+    top: 700px;
+    width: 750px;
+    height: 750px;
+    background: #fc0202;
+}
+section .color:nth-child(5)
+{
+    top:1300px;
+    width: 750px;
+    height: 750px;
+    background: #ebfc02;
+}
+ section .color:nth-child(6)
+{
+    top: 1900px;
+    width: 750px;
+    height: 750px;
+    background: #fc0202;
+}
+section .color:nth-child(7)
+{
+    top: 2700px;
+    width: 750px;
+    height: 750px;
+    background: #fcf802;
+}
+section .color:nth-child(8)
+{
+    top: 3300px;
+    width: 750px;
+    height: 750px;
+    background: #fc0202;
+}
+section .color:nth-child(9)
+{
+    top: 3910px;
+    width: 400px;
+    height: 400px;
+    left: 100px;
+    background: #fcd602;
+} 
+ 
+.box
+{
+    position: relative;
+}
+.box .square
+{
+position: absolute;
+box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+backdrop-filter: blur(5px);
+border: 1px solid rgba(255,255,255,0.5);
+border-right: 1px solid rgba(255,255,255,0.2);
+border-bottom: 1px solid rgba(255,255,255,0.2);
+background: rgba(255,255,255,0.1);
+border-radius: 10px;
+animation: animate 10s linear infinite;
+animation-delay: calc(-1s * var(--i));
+}
+@keyframes animate 
+{
+    0%,100%
+    {
+transform:translateY(-40px)
+    }
+    50%
+    {
+transform:translateY(40px)
+    }
+}
+.box .square:nth-child(1)
+{
+    top: 130px;
+    width: 100px;
+    height: 100px;
+    right: -170px;
+}
+ .box .square:nth-child(2)
+{
+    top: 80px;
+    left: -120px;
+    width: 100px;
+    height:  100px;
+    z-index: 2;
+} 
+.box .square:nth-child(3)
+{
+    top: 530px;
+    right: -120px;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+}  
+.box .square:nth-child(4)
+{
+    top: 450px;
+    left: -120px;
+    width: 80px;
+    height: 80px;
+    
+} 
+.box .square:nth-child(5)
+{
+    top: 350px;
+    left: -130px;
+    width: 60px;
+    height: 60px;
+}
+.container
+{
+    position: relative;
+    min-width: 400px;
+    min-height: 500px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+   
+}
+.form
+{
+position: relative;
+width: 100%;
+height: 100%;
+padding-left: 50px;
+padding-right: 90px;
+}
+.form h2
+{
+    position: relative;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.form h2::before
+{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 270px;
+    background: #fff;
+    height: 4px;
+    border-radius: 5px;
+
+}
+.form .inputBox-1 h2::before
+{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 200px;
+    background: #fff;
+    height: 4px;
+    border-radius: 5px;
+
+}
+.form .inputBox-2 h2::before
+{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 170px;
+    background: #fff;
+    height: 4px;
+    border-radius: 5px;
+
+}
+.form .inputBox-3 h2::before
+{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 210px;
+    background: #fff;
+    height: 4px;
+    border-radius: 5px;
+
+}.form .inputBox-4 h2::before
+{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 207px;
+    background: #fff;
+    height: 4px;
+    border-radius: 5px;
+
+}.form .inputBox-5 h2::before
+{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 207px;
+    background: #fff;
+    height: 4px;
+    border-radius: 5px;
+
+}
+
+.forget
+{
+
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}   
+.forget a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.forget-1 a
+{  
+    color: #fff;
+    margin-left: 2px;
+    font-style: bold;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.forget-1
+{  margin-top: -15px;
+    color: #fff;
+    font-style: bold;
+    text-decoration: none;
+    padding-bottom: 20px;
+}

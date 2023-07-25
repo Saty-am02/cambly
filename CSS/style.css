@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+overflow-x: hidden;
+background: #fff;
+min-height: 100vh;
+
+}
+#header
+{
+
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+}
+
+#header ul
+{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 50px;
+}
+#header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+#header ul li a 
+
+{   display: block; 
+    font-weight: 700;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #094b65;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    transition: 0.25s;
+}
+#header ul li a:hover,
+#header ul li a.active
+{
+background: #094b65;
+color: #fff;
+}
+#header div input
+{
+    height: 110px;
+     width: 135px; 
+     padding-top: 20px; 
+     padding-left: 50px;
+     transition: 00.55s;
+}
+ #header div input:hover
+{
+   transform: scale(1.25);
+}
+.header .image
+{
+    transition: 2s;
+}
+section
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+section::before
+{   
+    content: '';
+    left: 0;
+    bottom:0;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #094b65,transparent);
+    z-index: 10;
+}
+section img
+{
+    position: absolute;
+    padding-top: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events:none ; 
+    /*transform: translateY(300px);*/ 
+    overflow-x: hidden;
+}
+section .water#water
+{
+    /* z-index: 1000; */
+    opacity: 1;
+    bottom: 0;
+    animation: animatewater 3s linear infinite;
+    background-size: 1000px 100px;
+}
+@keyframes animatewater
+{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+section #text
+{ 
+    position: absolute;
+    color: #094b65;
+    font-size: 17vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Rancho', cursive;
+   transform: translatey(40px);
+  
+}
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    background: #fff;
+    color: #094b65;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translateY(200px);
+    font-family: 'Poppins', sans-serif;
+    transition: 2s;
+}
+.sec
+{
+    position: relative;
+    background-color: #094b65;
+    
+}
+.cambly
+{
+    height: 110px;
+    width: 370px;
+    /* padding: 30px 50px; */
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+.sec p
+{
+font-size: 1.5em;
+color: #fff;
+padding-top: 30px;
+padding-left: 100px;
+padding-bottom: 100px;
+padding-right: 100px;
+font-family: 'Poppins', sans-serif;
+}
+div #icon
+{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+footer
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    min-height: 110px;
+    flex-direction: column;
+    
+}
+footer .social_icon,
+footer .menu
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px 10px;
+    /* margin-right:45%;
+    margin-bottom: 25px; */
+    flex-wrap: wrap;
+}
+footer .social_icon li,
+footer .menu li
+{
+list-style: none;
+
+}
+ion-icon
+{
+    font-size: 3em; 
+    color: black;
+   padding:10px 10px ; 
+   transition: 0.25s;  
+   display: inline-block; 
+   
+} 
+ion-icon:hover
+{
+    transform: translateY(-10px);
+  
+}
+footer .menu li a
+{
+   font-size: 1.2em; 
+   color: black;
+   padding:0px 20px ; 
+   transition: 0.25s;  
+   display: inline-block;
+   text-decoration: none; 
+   opacity: 0.5;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+}
+footer .menu li a:hover
+{
+    opacity: 1;
+    transform: scale(1.25);
+}
+footer p
+{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    opacity: .3;
+}
+footer p:hover
+{
+   opacity: 1;
+}
+footer .wave
+{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/wave5.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1
+{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 5s linear infinite;
+    
+}
+footer .wave#wave2
+{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave_02 5s linear infinite;
+}
+footer .wave#wave3
+{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave_03 3s linear infinite;
+}
+footer .wave#wave4
+{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave_04 3s linear infinite;
+}
+@keyframes animatewave
+{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+@keyframes animatewave_02
+{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+@keyframes animatewave_03
+{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+@keyframes animatewave_04
+{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+
+@media (max-width:700px)
+{
+#header
+{
+    padding: 20px;
+}
+#header .navigation
+{
+    display: none;
+}
+#header .navigation.active
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    
+}
+.navigation li
+{
+    margin: 10px 0px;
+}
+.toggle 
+ {
+    position: relative;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../images/outline_menu_black_24dp.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10000;
+}
+.toggle.active
+{
+    background: url(../images/outline_close_black_24dp.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec
+{
+    padding:20px;
+}
+.sec .p
+{
+font-size: 1.5em;
+}
+}
