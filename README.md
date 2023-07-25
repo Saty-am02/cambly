@@ -17,19 +17,15 @@ http://cambly.epizy.com/cambly/
 - Login/Sinup page for user.
 - Quotes section.
 - Diffrent sections for diffrent languages.
-- 
+  
 ## Screenshot
 
 
 ![index](https://github.com/Saty-am02/cambly/assets/88832726/20308461-3685-4a0d-b699-1949a001a54d)
-![index](https://github.com/Saty-am02/cambly/assets/88832726/8a61bd0d-83d9-4a84-b188-112dd8085076)
-![index](https://github.com/Saty-am02/cambly/assets/88832726/00fc3c27-61df-4e00-b6cd-6de63eabd08d)
-![index](https://github.com/Saty-am02/cambly/assets/88832726/3c760b7f-cab3-4ada-8322-5e8415dfae34)
-![index](https://github.com/Saty-am02/cambly/assets/88832726/a0c5964e-a1a9-48b6-99aa-9550cba6e3aa)
-
-
-
-
+![quotes](https://github.com/Saty-am02/cambly/assets/88832726/8a61bd0d-83d9-4a84-b188-112dd8085076)
+![login](https://github.com/Saty-am02/cambly/assets/88832726/00fc3c27-61df-4e00-b6cd-6de63eabd08d)
+![language section](https://github.com/Saty-am02/cambly/assets/88832726/3c760b7f-cab3-4ada-8322-5e8415dfae34)
+![videos](https://github.com/Saty-am02/cambly/assets/88832726/a0c5964e-a1a9-48b6-99aa-9550cba6e3aa)
 
 
 
