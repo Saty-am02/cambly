@@ -20,9 +20,8 @@ http://cambly.epizy.com/cambly/
 - 
 ## Screenshot
 
-![index](https://github.com/Saty-am02/EvEBlush/assets/88832726/538a26a4-bd59-471b-935d-fa81e6e57815)
-
-![about page](https://github.com/Saty-am02/EvEBlush/assets/88832726/500f224c-0527-4304-a557-666b1bc883b8)
+![index]
+![about page]
 
 
 
