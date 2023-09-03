@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the code for my learning website, showcasing my Learning website,diffrent languages and more. The website is built using [HTML, CSS, JavaScript,php etc.], and it is designed to be fast, and user-friendly.
+This repository contains the code for my learning website, showcasing my Learning website,diffrent languages and more. The website is built using [HTML, CSS, JavaScript,php etc], and it is designed to be fast, and user-friendly.
 
 **Live Website:** 
 http://cambly.epizy.com/cambly/
